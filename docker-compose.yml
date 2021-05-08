@@ -9,7 +9,7 @@ services:
     external_links:
       - mongo
   mongo:
-    container_name: mongo
+    container_name: mongo__
     image: mongo
     ports:
       - '27017:27017'
